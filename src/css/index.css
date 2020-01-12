@@ -20,7 +20,9 @@
 }
 
 body{
-  background: url('../images/bg.svg');
+  background-image: url('../images/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header, main, footer{
@@ -68,8 +70,7 @@ a{
   }
 
   body{
-    background: #000;
-    background-image: url(../images/bg.svg);
+    background-color: #000;
   }
 
   a{
