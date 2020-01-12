@@ -60,3 +60,19 @@ a{
   margin-left: 2rem;
 }
 
+@media(prefers-color-scheme: dark){
+  :root{
+    --main-light: #26114d;
+    --main-normal: #7137EE;
+    --main-dark: #e9deff;
+  }
+
+  body{
+    background: #000;
+    background-image: url(../images/bg.svg);
+  }
+
+  a{
+    color: var(--main-dark) !important;
+  }
+}
