@@ -1,0 +1,85 @@
+#work{
+  margin: 35vh 0;
+}
+
+.project{
+  display: flex;
+  height: 20rem;
+}
+
+.project:nth-child(even){
+  flex-flow: row-reverse;
+  margin: 10rem 0;
+  text-align: right;
+}
+
+.project h2{
+  font-size: 2rem;
+}
+
+.project img{
+  height: 100%;
+}
+
+.project .desc{
+  padding: 0 2rem;
+}
+
+.tags{
+  margin: 0.5rem 0;
+}
+
+.tags span{
+  background: var(--main-dark);
+  color: var(--main-light);
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 0.25rem 0.5rem 0;
+}
+
+.actions{
+  margin-top: 2rem;
+}
+
+.actions .btn-secondary{
+  margin-left: 1rem;
+}
+
+@media(max-width: 1350px){
+  .project{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  
+  .project:nth-child(even){
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .project img{
+    width: 100%;
+    height: auto;
+  }
+
+  .project .desc {
+    padding: 1.5rem 0;
+  }
+
+  .desc h2{
+    font-size: 1.5rem;
+  }
+
+  .desc .btn{
+    width: 100%;
+    text-align: center;
+  }
+
+  .desc .btn-secondary{
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
