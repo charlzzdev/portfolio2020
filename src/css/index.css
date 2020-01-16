@@ -2,6 +2,7 @@
 @import url('./home.css');
 @import url('./header.css');
 @import url('./work.css');
+@import url('./contact.css');
 
 :root{
   --main-light: #F4EEFF;
@@ -17,7 +18,8 @@
 }
 
 ::selection{
-  background: var(--main-light);
+  background-color: var(--main-dark);
+  color: var(--main-light);
 }
 
 body{
@@ -56,6 +58,8 @@ a{
   border-radius: 6px;
   font-weight: 600;
   letter-spacing: 0.1px;
+  border: 0;
+  cursor: pointer;
 }
 
 .btn-secondary{
