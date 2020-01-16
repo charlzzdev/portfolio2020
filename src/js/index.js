@@ -20,3 +20,8 @@ darkModeToggle.addEventListener('click', () => {
   darkModeOn = !darkModeOn;
 });
 
+const toInput = document.getElementById('to');
+
+toInput.addEventListener('change', e => e.target.value = 'contact@charleseller.dev');
+toInput.addEventListener('click', e => e.target.select());
+
