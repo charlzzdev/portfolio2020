@@ -23,6 +23,7 @@
 
 .project .desc{
   padding: 0 2rem;
+  max-width: 30rem;
 }
 
 .tags{
@@ -67,6 +68,7 @@
 
   .project .desc {
     padding: 1.5rem 0;
+    max-width: unset;
   }
 
   .desc h2{
