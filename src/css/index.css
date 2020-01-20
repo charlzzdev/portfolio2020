@@ -22,6 +22,10 @@
   color: var(--main-light);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-image: url('../images/bg.svg');
   background-repeat: no-repeat;
