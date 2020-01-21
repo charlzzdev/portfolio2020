@@ -25,3 +25,4 @@ const toInput = document.getElementById('to');
 toInput.addEventListener('change', e => e.target.value = 'contact@charleseller.dev');
 toInput.addEventListener('click', e => e.target.select());
 
+document.getElementById('year').innerText = new Date().getFullYear();

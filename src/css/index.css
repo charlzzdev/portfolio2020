@@ -3,6 +3,7 @@
 @import url('./header.css');
 @import url('./work.css');
 @import url('./contact.css');
+@import url('./footer.css');
 
 :root{
   --main-light: #F4EEFF;
