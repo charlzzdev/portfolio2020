@@ -28,9 +28,6 @@ html{
 }
 
 body{
-  background-image: url('../images/bg.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
   transition: background-color 500ms;
 }
 

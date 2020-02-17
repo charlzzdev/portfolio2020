@@ -31,8 +31,9 @@ label{
 .contact-form button{
   margin-top: 1rem;
   float: right;
+  font-size: 1rem;
 }
 
-@media(max-width: 1100px){
-  .contact-form{ width: 100%; }
+@media(max-width: 765px){
+  .contact-form, .contact-form button{ width: 100%; }
 }
