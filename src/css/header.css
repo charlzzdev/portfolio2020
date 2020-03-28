@@ -3,6 +3,9 @@ header{
   padding-bottom: 1.5rem !important;
   text-align: right;
   font-size: 1.125rem;
+  position: sticky;
+  top: 0;
+  background: var(--header-bg);
 }
 
 header a{
@@ -10,7 +13,7 @@ header a{
   margin-left: 2rem;
 }
 
-header nav .nav-btn{
+header .nav-btn{
   padding: 0.25rem 0.5rem;
   margin-left: 2rem;
 }
@@ -24,14 +27,6 @@ header svg{
 
 .menu{
   display: none;
-}
-
-@media(min-width: 701px){
-  header {
-    position: sticky;
-    top: 0;
-    background: var(--header-bg);
-  }
 }
 
 @media(max-width: 1400px){
@@ -49,8 +44,10 @@ header svg{
   .menu{
     display: block;
     position: absolute;
-    top: 15px;
+    top: 5px;
     right: 25px;
+    border: 0;
+    background: none;
   }
 
   .menu div{
@@ -71,7 +68,7 @@ header svg{
     width: 100%;
     position: absolute;
     left: 0;
-    top: -100%;
+    top: -600%;
     transition: top 300ms;
   }
   
@@ -82,7 +79,8 @@ header svg{
     margin-bottom: 1rem;
   }
 
-  nav .nav-btn{
+  .nav-btn{
     margin-left: 0 !important;
+    font-size: 1rem;
   }
 }
