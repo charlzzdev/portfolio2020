@@ -8,11 +8,21 @@ document.body.appendChild(styleTag);
 darkModeToggle.addEventListener('click', () => {
   const darkCss = `
     body{ background-color: #000; }
-    :root{ --main-light: #26114d; --main-normal: #b08aff; --main-dark: #e9deff; }
+    :root{
+      --main-light: #26114d;
+      --main-normal: #b08aff;
+      --main-dark: #e9deff;
+      --header-bg: #000000ef;
+    }
   `;
   const lightCss = `
     body{ background-color: #fff; }
-    :root{ --main-light: #F4EEFF; --main-normal: #7137EE; --main-dark: #3A1D78; }
+    :root{
+      --main-light: #F4EEFF;
+      --main-normal: #7137EE;
+      --main-dark: #3A1D78;
+      --header-bg: #ffffffef;
+    }
   `;
 
   styleTag.innerText = darkModeOn ? lightCss : darkCss;
