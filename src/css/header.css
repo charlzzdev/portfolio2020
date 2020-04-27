@@ -68,7 +68,7 @@ header svg{
     width: 100%;
     position: absolute;
     left: 0;
-    top: -600%;
+    top: -650%;
     transition: top 300ms;
   }
   
