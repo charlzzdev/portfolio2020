@@ -24,6 +24,10 @@
   color: var(--main-light);
 }
 
+*:focus{
+  outline: 1px solid var(--main-normal);
+}
+
 html{
   scroll-behavior: smooth;
 }
