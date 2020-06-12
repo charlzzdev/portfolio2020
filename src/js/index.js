@@ -13,6 +13,8 @@ darkModeToggle.addEventListener('click', () => {
       --main-normal: #b08aff;
       --main-dark: #e9deff;
       --header-bg: #000000ef;
+      --main-dark-hover: #9976e6;
+      --main-light-hover: #43257a;
     }
   `;
   const lightCss = `
@@ -22,6 +24,8 @@ darkModeToggle.addEventListener('click', () => {
       --main-normal: #7137EE;
       --main-dark: #3A1D78;
       --header-bg: #ffffffef;
+      --main-dark-hover: #6022e6;
+      --main-light-hover: #e5d9fc;
     }
   `;
 

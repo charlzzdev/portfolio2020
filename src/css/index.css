@@ -10,6 +10,8 @@
   --main-normal: #7137EE;
   --main-dark: #3A1D78;
   --header-bg: #ffffffef;
+  --main-dark-hover: #6022e6;
+  --main-light-hover: #e5d9fc;
 }
 
 *{
@@ -67,6 +69,12 @@ a{
   letter-spacing: 0.1px;
   border: 0;
   cursor: pointer;
+  transition: 300ms;
+}
+
+.btn:hover{
+  background: var(--main-dark-hover);
+  transform: translateY(-2px);
 }
 
 .btn-secondary{
@@ -75,12 +83,18 @@ a{
   margin-left: 2rem;
 }
 
+.btn-secondary:hover{
+  background: var(--main-light-hover);
+}
+
 @media(prefers-color-scheme: dark){
   :root{
     --main-light: #26114d;
     --main-normal: #b08aff;
     --main-dark: #e9deff;
     --header-bg: #000000ef;
+    --main-dark-hover: #9976e6;
+    --main-light-hover: #43257a;
   }
 
   body{
