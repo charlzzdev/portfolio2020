@@ -16,6 +16,7 @@ footer p{
 .footer-links{
   display: flex;
   width: fit-content;
+  width: -moz-fit-content;
   margin: 0 auto;
   padding: 2rem 0;
 }
